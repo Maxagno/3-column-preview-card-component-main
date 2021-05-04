@@ -44,11 +44,14 @@ h2 {
     padding-bottom: 50px;
 }
 
+.column_card p {
+    margin-bottom: 25px;
+}
+
 .column_card button {
-    margin-top: 25px;
     align-self: flex-start;
     background-color: hsl(0, 0%, 95%); /* Green */
-    border: none;
+    border: 4px solid hsl(0, 0%, 95%);
     border-radius: 15px;
     padding: 10px 20px;
     text-align: center;
@@ -73,6 +76,13 @@ h2 {
     color: hsl(31, 77%, 52%);
 }
 
+#column_1 button:hover{
+    background-color: hsl(31, 77%, 52%);
+    border: solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+    
+}
+
 #column_2 {
     background-color: hsl(184, 100%, 22%);
 }
@@ -80,6 +90,13 @@ h2 {
 #column_2 button{
     color:  hsl(184, 100%, 22%);
 }
+
+#column_2 button:hover{
+    background-color:  hsl(184, 100%, 22%);
+    border: solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+}
+
 
 #column_3 {
     border-top-right-radius: 10px;
@@ -90,3 +107,10 @@ h2 {
 #column_3 button{
     color:hsl(179, 100%, 13%);
 }
+
+#column_3 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    border: solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);;
+}
+
