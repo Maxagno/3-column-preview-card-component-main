@@ -7,10 +7,16 @@
 
 body {
     font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
 }
 
 h2 {
     font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-size: 3vw;
 }
 
 .container {
@@ -24,5 +30,21 @@ h2 {
     grid-row: 2;
     display: grid;
     grid-template-columns: 33% 33% 33%;
+}
+
+#column_1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+#column_2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#column_3 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(179, 100%, 13%);
 }
 
