@@ -21,7 +21,7 @@ h2 {
 
 .container {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 10% 80% 10%;
     grid-template-rows: 150px auto 100px;
 }
 
@@ -32,14 +32,53 @@ h2 {
     grid-template-columns: 33% 33% 33%;
 }
 
+.column_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 25vw;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.column_card button {
+    margin-top: 25px;
+    align-self: flex-start;
+    background-color: hsl(0, 0%, 95%); /* Green */
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.column_card img {
+    height: 30%;
+    width: 30%;
+}
+
 #column_1 {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     background-color: hsl(31, 77%, 52%);
 }
 
+#column_1 button{
+    color: hsl(31, 77%, 52%);
+}
+
 #column_2 {
     background-color: hsl(184, 100%, 22%);
+}
+
+#column_2 button{
+    color:  hsl(184, 100%, 22%);
 }
 
 #column_3 {
@@ -48,3 +87,6 @@ h2 {
     background-color: hsl(179, 100%, 13%);
 }
 
+#column_3 button{
+    color:hsl(179, 100%, 13%);
+}
